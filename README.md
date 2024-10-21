@@ -32,9 +32,18 @@ To use Hidra, you'll need to obtain API keys from Twitter and create a special a
 2. Compose your post and select your preferred platforms.
 3. Click "Post" to share your content on both Bluesky and Twitter!
 
+## Limitations
+
+Bluesky is a relatively new platform, and it has some limitations that may affect the posting experience:
+
+1. The size limit for images is 1Mb, which really, really sucks. But this is an API only limitation, so you can upload images via website if you want to break the limit.
+2. You can not attach images and videos at the same time, while Twitter allows you to do so.
+3. Only 1 video allowed when posting video.
+
 ## dev
 
 ```bash
+# Download repository
 git clone https://github.com/INCHMAN1900/hidra.git
 cd hidra
 
